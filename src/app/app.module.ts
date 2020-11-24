@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { Course1Component } from './components/course1/course1.component';
 import { ScrollEventComponent } from './components/scroll-event/scroll-event.component';
 import { CountDownComponent } from './components/count-down/count-down.component';
+import { TimerComponent } from './components/timer/timer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Course1Component,
     ScrollEventComponent,
-    CountDownComponent
+    CountDownComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
